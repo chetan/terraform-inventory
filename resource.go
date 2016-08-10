@@ -17,8 +17,8 @@ var nameParser *regexp.Regexp
 func init() {
 	keyNames = []string{
 		"ipv4_address",                                        // DO
-		"public_ip",                                           // AWS
 		"private_ip",                                          // AWS
+		"public_ip",                                           // AWS
 		"ipaddress",                                           // CS
 		"ip_address",                                          // VMware
 		"access_ip_v4",                                        // OpenStack
